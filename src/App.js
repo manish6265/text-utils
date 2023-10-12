@@ -32,7 +32,7 @@ function App() {
   return (
     <>
       <Navbar title="TextUtils" mode={mode} toggleMode={toggleMode} />
-      <Alert alert={alert}/>
+    {/*<Alert alert={alert}/>*/}
       <div className="container my-3">
         {/*<About></About>*/}
         {/*<TextForm heading="Enter the text to analyze" mode={mode} showAlert={showAlert}/>*/}
